@@ -79,3 +79,11 @@
 @media(max-width:850px){.artifact-track{grid-auto-columns:calc((100% - 16px)/2)}}
 @media(max-width:640px){.artifacts{margin-top:48px;padding-top:24px}.artifacts-heading{align-items:center;margin-bottom:19px}.artifacts-heading>div>span{letter-spacing:1.3px}.artifacts-heading h2{font-size:36px}.artifact-controls button{width:36px;height:36px;font-size:17px}.artifact-track{grid-auto-columns:88%;gap:12px}.artifact-card figcaption{min-height:52px;padding:13px 14px;font-size:14px}}
 
+
+/* About profile highlights */
+.about-strengths{break-inside:avoid;margin:26px 0 22px;padding:20px 22px;background:#f0e8e2;border-top:1px solid var(--accent);border-bottom:1px solid var(--accent)}
+.about-strengths h2{margin:0 0 12px;font-family:Georgia,'Times New Roman',serif;font-size:24px;font-weight:400;color:var(--accent)}
+.about-strengths ul{margin:0;padding:0;list-style:none}
+.about-strengths li{padding:8px 0;border-top:1px solid #ccbcb5;font-family:Georgia,'Times New Roman',serif;font-size:14px;line-height:1.5}
+.about-strengths li:first-child{border-top:0}
+@media(max-width:640px){.about-strengths{margin:22px 0 20px;padding:17px 18px}.about-strengths h2{font-size:22px}.about-strengths li{font-size:13px}}
